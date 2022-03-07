@@ -1,0 +1,980 @@
+{
+ "format":"JSON.FY-0.1.5" 
+ ,"now":"2022-02-23T23:07:19.000Z" 
+ ,"program":"Converter EXFOR-TO-JSON.FY, by V.Zerkin, IAEA-NDS, 2019-2020 (ver.2020-07-08)" 
+ ,"input": {  "files": [ {"name":"X4R6230_x4.txt", "format":"EXFOR", "created":"2022-02-23T23:03:22.000Z" } ] }
+ ,"output": { "files": [ {"name":"X4R6230_x4.txt.x4jsonFy", "outBib":"0", "created":"2022-02-23T23:07:19.000Z" } ] }
+ ,"datasets": [
+ 
+ { "type":"data", "id":"A0862002"
+  ,"subent":{"id":"A0862002", "updated":"20110316" }
+  ,"entry":{"id":"A0862", "updated":"20110315" }
+  ,"author1":"M.Zamani+"
+  ,"year":2010
+  ,"ref1":{"code":"J,ANE,37,923,2010"
+          ,"exp":"Jour: Annals of Nuclear Energy, Vol.37, p.923 (2010)"
+          }
+  ,"reaction": {
+     "code":"82-PB-0(P,INL)82-PB-0,,SIG"
+    ,"Proj":"P"
+    ,"Target":"82-PB-0"
+    ,"ReactionType":"CS"     ,"MF":3    ,"ReacTypeExp":"Cross section"
+    ,"DataType":",SIG"
+    ,"Quantity":"Cross section"
+    ,"IndVarFamCode":"0 2"
+  }
+  ,"dataCols": [
+	 { "Code":"EN"  ,"Units":"KEV", "Exp":"Incident energy"}
+	,{ "Code":"Data","Units":"B","Data":"SIG"}
+  ]
+  ,"dataPoints": [
+	 {"EN":1000000 ,"Z":82       , "Nucl":"Pb-0"       ,"Data":1.79       ,"dData":0.18       }
+	,{"EN":1500000 ,"Z":82       , "Nucl":"Pb-0"       ,"Data":1.61       ,"dData":0.12       }
+	,{"EN":2000000 ,"Z":82       , "Nucl":"Pb-0"       ,"Data":1.65       ,"dData":0.1        }
+  ]
+ }
+,
+ { "type":"data", "id":"C0343007"
+  ,"subent":{"id":"C0343007", "updated":"20111118" }
+  ,"entry":{"id":"C0343", "updated":"20111118" }
+  ,"author1":"N.T.Porile"
+  ,"year":1962
+  ,"ref1":{"code":"J,PR,128,1916,1962"
+          ,"exp":"Jour: Physical Review, Vol.128, p.1916 (1962)"
+          }
+  ,"reaction": {
+     "code":"49-IN-115(P,INL)49-IN-115-M,,SIG"
+    ,"Proj":"P"
+    ,"Target":"49-IN-115"
+    ,"ReactionType":"CS"     ,"MF":3    ,"ReacTypeExp":"Cross section"
+    ,"DataType":",SIG"
+    ,"Quantity":"Cross section"
+    ,"IndVarFamCode":"0 2"
+  }
+  ,"dataCols": [
+	 { "Code":"EN"  ,"Units":"KEV", "Exp":"Incident energy"}
+	,{ "Code":"Data","Units":"B","Data":"SIG"}
+  ]
+  ,"dataPoints": [
+	 {"EN":3.0e+07 ,"Z":49 ,"A":115,"S":1, "Nucl":"In-115-M"   ,"Data":0.002      ,"t12sec":16200      ,"Radiations":[ {"Type":"DG", "Energy":[335.0], "Intensity":0.48}]}
+	,{"EN":3.0e+07 ,"Z":49 ,"A":115,"S":1, "Nucl":"In-115-M"   ,"Data":0.0018     ,"t12sec":16200      ,"Radiations":[ {"Type":"DG", "Energy":[335.0], "Intensity":0.48}]}
+	,{"EN":2900000 ,"Z":49 ,"A":115,"S":1, "Nucl":"In-115-M"   ,"Data":0.0021     ,"t12sec":16200      ,"Radiations":[ {"Type":"DG", "Energy":[335.0], "Intensity":0.48}]}
+	,{"EN":2900000 ,"Z":49 ,"A":115,"S":1, "Nucl":"In-115-M"   ,"Data":0.002      ,"t12sec":16200      ,"Radiations":[ {"Type":"DG", "Energy":[335.0], "Intensity":0.48}]}
+  ]
+ }
+,
+ { "type":"data", "id":"C0343018"
+  ,"subent":{"id":"C0343018", "updated":"20111118" }
+  ,"entry":{"id":"C0343", "updated":"20111118" }
+  ,"author1":"N.T.Porile"
+  ,"year":1962
+  ,"ref1":{"code":"J,PR,128,1916,1962"
+          ,"exp":"Jour: Physical Review, Vol.128, p.1916 (1962)"
+          }
+  ,"reaction": {
+     "code":"49-IN-115(P,INL)49-IN-115-M,,SIG"
+    ,"Proj":"P"
+    ,"Target":"49-IN-115"
+    ,"ReactionType":"CS"     ,"MF":3    ,"ReacTypeExp":"Cross section"
+    ,"DataType":",SIG"
+    ,"Quantity":"Cross section"
+    ,"IndVarFamCode":"0 2"
+  }
+  ,"dataCols": [
+	 { "Code":"EN"  ,"Units":"KEV", "Exp":"Incident energy"}
+	,{ "Code":"Data","Units":"B","Data":"SIG"}
+  ]
+  ,"dataPoints": [
+	 {"EN":3.0e+07 ,"Z":49 ,"A":115,"S":1, "Nucl":"In-115-M"   ,"Data":0.0022     ,"t12sec":16200      ,"Radiations":[ {"Type":"DG", "Energy":[335.0], "Intensity":0.48}]}
+	,{"EN":2900000 ,"Z":49 ,"A":115,"S":1, "Nucl":"In-115-M"   ,"Data":0.0025     ,"t12sec":16200      ,"Radiations":[ {"Type":"DG", "Energy":[335.0], "Intensity":0.48}]}
+  ]
+ }
+,
+ { "type":"data", "id":"C0343026"
+  ,"subent":{"id":"C0343026", "updated":"20111118" }
+  ,"entry":{"id":"C0343", "updated":"20111118" }
+  ,"author1":"N.T.Porile"
+  ,"year":1962
+  ,"ref1":{"code":"J,PR,128,1916,1962"
+          ,"exp":"Jour: Physical Review, Vol.128, p.1916 (1962)"
+          }
+  ,"reaction": {
+     "code":"49-IN-115(P,INL)49-IN-115-M,,SIG"
+    ,"Proj":"P"
+    ,"Target":"49-IN-115"
+    ,"ReactionType":"CS"     ,"MF":3    ,"ReacTypeExp":"Cross section"
+    ,"DataType":",SIG"
+    ,"Quantity":"Cross section"
+    ,"IndVarFamCode":"0 2"
+  }
+  ,"dataCols": [
+	 { "Code":"EN"  ,"Units":"KEV", "Exp":"Incident energy"}
+	,{ "Code":"Data","Units":"B","Data":"SIG"}
+  ]
+  ,"dataPoints": [
+	 {"EN":3.0e+07 ,"Z":49 ,"A":115,"S":1, "Nucl":"In-115-M"   ,"Data":0.0017     ,"t12sec":16200      ,"Radiations":[ {"Type":"DG", "Energy":[335.0], "Intensity":0.48}]}
+	,{"EN":2900000 ,"Z":49 ,"A":115,"S":1, "Nucl":"In-115-M"   ,"Data":0.0019     ,"t12sec":16200      ,"Radiations":[ {"Type":"DG", "Energy":[335.0], "Intensity":0.48}]}
+  ]
+ }
+,
+ { "type":"data", "id":"C1219002"
+  ,"subent":{"id":"C1219002", "updated":"20050408" }
+  ,"entry":{"id":"C1219", "updated":"20050408" }
+  ,"author1":"F.F.Chen+"
+  ,"year":1955
+  ,"ref1":{"code":"J,PR,99,857,1955"
+          ,"exp":"Jour: Physical Review, Vol.99, p.857 (1955)"
+          }
+  ,"reaction": {
+     "code":"82-PB-0(P,INL)82-PB-0,,SIG"
+    ,"Proj":"P"
+    ,"Target":"82-PB-0"
+    ,"ReactionType":"CS"     ,"MF":3    ,"ReacTypeExp":"Cross section"
+    ,"DataType":",SIG"
+    ,"Quantity":"Cross section"
+    ,"IndVarFamCode":"0 2"
+  }
+  ,"dataCols": [
+	 { "Code":"EN"  ,"Units":"KEV", "Exp":"Incident energy"}
+	,{ "Code":"Data","Units":"B","Data":"SIG"}
+  ]
+  ,"dataPoints": [
+	 {"EN":800000  ,"Z":82       , "Nucl":"Pb-0"       ,"Data":1.68       ,"dData":0.04       }
+  ]
+ }
+,
+ { "type":"data", "id":"C1219003"
+  ,"subent":{"id":"C1219003", "updated":"20050408" }
+  ,"entry":{"id":"C1219", "updated":"20050408" }
+  ,"author1":"F.F.Chen+"
+  ,"year":1955
+  ,"ref1":{"code":"J,PR,99,857,1955"
+          ,"exp":"Jour: Physical Review, Vol.99, p.857 (1955)"
+          }
+  ,"reaction": {
+     "code":"50-SN-0(P,INL)50-SN-0,,SIG"
+    ,"Proj":"P"
+    ,"Target":"50-SN-0"
+    ,"ReactionType":"CS"     ,"MF":3    ,"ReacTypeExp":"Cross section"
+    ,"DataType":",SIG"
+    ,"Quantity":"Cross section"
+    ,"IndVarFamCode":"0 2"
+  }
+  ,"dataCols": [
+	 { "Code":"EN"  ,"Units":"KEV", "Exp":"Incident energy"}
+	,{ "Code":"Data","Units":"B","Data":"SIG"}
+  ]
+  ,"dataPoints": [
+	 {"EN":800000  ,"Z":50       , "Nucl":"Sn-0"       ,"Data":1.11       ,"dData":0.03       }
+  ]
+ }
+,
+ { "type":"data", "id":"C1219004"
+  ,"subent":{"id":"C1219004", "updated":"20050408" }
+  ,"entry":{"id":"C1219", "updated":"20050408" }
+  ,"author1":"F.F.Chen+"
+  ,"year":1955
+  ,"ref1":{"code":"J,PR,99,857,1955"
+          ,"exp":"Jour: Physical Review, Vol.99, p.857 (1955)"
+          }
+  ,"reaction": {
+     "code":"29-CU-0(P,INL)29-CU-0,,SIG"
+    ,"Proj":"P"
+    ,"Target":"29-CU-0"
+    ,"ReactionType":"CS"     ,"MF":3    ,"ReacTypeExp":"Cross section"
+    ,"DataType":",SIG"
+    ,"Quantity":"Cross section"
+    ,"IndVarFamCode":"0 2"
+  }
+  ,"dataCols": [
+	 { "Code":"EN"  ,"Units":"KEV", "Exp":"Incident energy"}
+	,{ "Code":"Data","Units":"B","Data":"SIG"}
+  ]
+  ,"dataPoints": [
+	 {"EN":800000  ,"Z":29       , "Nucl":"Cu-0"       ,"Data":0.728      ,"dData":0.017      }
+  ]
+ }
+,
+ { "type":"data", "id":"C1219005"
+  ,"subent":{"id":"C1219005", "updated":"20050408" }
+  ,"entry":{"id":"C1219", "updated":"20050408" }
+  ,"author1":"F.F.Chen+"
+  ,"year":1955
+  ,"ref1":{"code":"J,PR,99,857,1955"
+          ,"exp":"Jour: Physical Review, Vol.99, p.857 (1955)"
+          }
+  ,"reaction": {
+     "code":"13-AL-27(P,INL)13-AL-27,,SIG"
+    ,"Proj":"P"
+    ,"Target":"13-AL-27"
+    ,"ReactionType":"CS"     ,"MF":3    ,"ReacTypeExp":"Cross section"
+    ,"DataType":",SIG"
+    ,"Quantity":"Cross section"
+    ,"IndVarFamCode":"0 2"
+  }
+  ,"dataCols": [
+	 { "Code":"EN"  ,"Units":"KEV", "Exp":"Incident energy"}
+	,{ "Code":"Data","Units":"B","Data":"SIG"}
+  ]
+  ,"dataPoints": [
+	 {"EN":800000  ,"Z":13 ,"A":27       , "Nucl":"Al-27"      ,"Data":0.394      ,"dData":0.01       }
+  ]
+ }
+,
+ { "type":"data", "id":"C1219007"
+  ,"subent":{"id":"C1219007", "updated":"20050408" }
+  ,"entry":{"id":"C1219", "updated":"20050408" }
+  ,"author1":"F.F.Chen+"
+  ,"year":1955
+  ,"ref1":{"code":"J,PR,99,857,1955"
+          ,"exp":"Jour: Physical Review, Vol.99, p.857 (1955)"
+          }
+  ,"reaction": {
+     "code":"6-C-0(P,INL)6-C-0,,SIG"
+    ,"Proj":"P"
+    ,"Target":"6-C-0"
+    ,"ReactionType":"CS"     ,"MF":3    ,"ReacTypeExp":"Cross section"
+    ,"DataType":",SIG"
+    ,"Quantity":"Cross section"
+    ,"IndVarFamCode":"0 2"
+  }
+  ,"dataCols": [
+	 { "Code":"EN"  ,"Units":"KEV", "Exp":"Incident energy"}
+	,{ "Code":"Data","Units":"B","Data":"SIG"}
+  ]
+  ,"dataPoints": [
+	 {"EN":800000  ,"Z":6        , "Nucl":"C-0"        ,"Data":0.209      ,"dData":0.022      }
+  ]
+ }
+,
+ { "type":"data", "id":"C1219009"
+  ,"subent":{"id":"C1219009", "updated":"20050408" }
+  ,"entry":{"id":"C1219", "updated":"20050408" }
+  ,"author1":"F.F.Chen+"
+  ,"year":1955
+  ,"ref1":{"code":"J,PR,99,857,1955"
+          ,"exp":"Jour: Physical Review, Vol.99, p.857 (1955)"
+          }
+  ,"reaction": {
+     "code":"4-BE-9(P,INL)4-BE-9,,SIG"
+    ,"Proj":"P"
+    ,"Target":"4-BE-9"
+    ,"ReactionType":"CS"     ,"MF":3    ,"ReacTypeExp":"Cross section"
+    ,"DataType":",SIG"
+    ,"Quantity":"Cross section"
+    ,"IndVarFamCode":"0 2"
+  }
+  ,"dataCols": [
+	 { "Code":"EN"  ,"Units":"KEV", "Exp":"Incident energy"}
+	,{ "Code":"Data","Units":"B","Data":"SIG"}
+  ]
+  ,"dataPoints": [
+	 {"EN":800000  ,"Z":4  ,"A":9        , "Nucl":"Be-9"       ,"Data":0.169      ,"dData":0.015      }
+  ]
+ }
+,
+ { "type":"data", "id":"C1808002"
+  ,"subent":{"id":"C1808002", "updated":"20100803" }
+  ,"entry":{"id":"C1808", "updated":"20100803" }
+  ,"author1":"D.W.Bardayan+"
+  ,"year":2010
+  ,"ref1":{"code":"J,PR/C,81,065802,2010"
+          ,"exp":"Jour: Physical Review, Part C, Nuclear Physics, Vol.81, p.065802 (2010)"
+          }
+  ,"reaction": {
+     "code":"9-F-17(P,INL)9-F-17,,SIG"
+    ,"Proj":"P"
+    ,"Target":"9-F-17"
+    ,"ReactionType":"CS"     ,"MF":3    ,"ReacTypeExp":"Cross section"
+    ,"DataType":",SIG"
+    ,"Quantity":"Cross section"
+    ,"IndVarFamCode":"0 2"
+  }
+  ,"dataCols": [
+	 { "Code":"EN"  ,"Units":"KEV", "Exp":"Incident energy"}
+	,{ "Code":"Data","Units":"B","Data":"SIG"}
+  ]
+  ,"dataPoints": [
+	 {"EN":3063.43 ,"Z":9  ,"A":17       , "Nucl":"F-17"       ,"Data":0.0091     }
+	,{"EN":3123.81 ,"Z":9  ,"A":17       , "Nucl":"F-17"       ,"Data":0.0144     }
+	,{"EN":3183.13 ,"Z":9  ,"A":17       , "Nucl":"F-17"       ,"Data":0.0084     }
+	,{"EN":3242.45 ,"Z":9  ,"A":17       , "Nucl":"F-17"       ,"Data":0.0053     }
+	,{"EN":3301.77 ,"Z":9  ,"A":17       , "Nucl":"F-17"       ,"Data":0.0089     }
+	,{"EN":3361.09 ,"Z":9  ,"A":17       , "Nucl":"F-17"       ,"Data":0.0106     }
+	,{"EN":3420.4  ,"Z":9  ,"A":17       , "Nucl":"F-17"       ,"Data":0.0105     }
+  ]
+ }
+,
+ { "type":"data", "id":"O0132003"
+  ,"subent":{"id":"O0132003", "updated":"20160708" }
+  ,"entry":{"id":"O0132", "updated":"20160708" }
+  ,"author1":"M.E.Sadler+"
+  ,"year":1980
+  ,"ref1":{"code":"J,PR/C,21,2303,1980"
+          ,"exp":"Jour: Physical Review, Part C, Nuclear Physics, Vol.21, p.2303 (1980)"
+          }
+  ,"reaction": {
+     "code":"28-NI-58(P,INL)28-NI-58,,SIG"
+    ,"Proj":"P"
+    ,"Target":"28-NI-58"
+    ,"ReactionType":"CS"     ,"MF":3    ,"ReacTypeExp":"Cross section"
+    ,"DataType":",SIG"
+    ,"Quantity":"Cross section"
+    ,"IndVarFamCode":"0 2"
+  }
+  ,"dataCols": [
+	 { "Code":"EN"  ,"Units":"KEV", "Exp":"Incident energy"}
+	,{ "Code":"Data","Units":"B","Data":"SIG"}
+  ]
+  ,"dataPoints": [
+	 {"EN":80000   ,"Z":28 ,"A":58       , "Nucl":"Ni-58"      ,"Data":0.031      ,"dData":0.003      }
+	,{"EN":100000  ,"Z":28 ,"A":58       , "Nucl":"Ni-58"      ,"Data":0.029      ,"dData":0.003      }
+	,{"EN":136000  ,"Z":28 ,"A":58       , "Nucl":"Ni-58"      ,"Data":0.017      ,"dData":0.002      }
+	,{"EN":164000  ,"Z":28 ,"A":58       , "Nucl":"Ni-58"      ,"Data":0.009      ,"dData":0.002      }
+  ]
+ }
+,
+ { "type":"data", "id":"O0132034"
+  ,"subent":{"id":"O0132034", "updated":"20160708" }
+  ,"entry":{"id":"O0132", "updated":"20160708" }
+  ,"author1":"M.E.Sadler+"
+  ,"year":1980
+  ,"ref1":{"code":"J,PR/C,21,2303,1980"
+          ,"exp":"Jour: Physical Review, Part C, Nuclear Physics, Vol.21, p.2303 (1980)"
+          }
+  ,"reaction": {
+     "code":"28-NI-62(P,INL)28-NI-62,,SIG"
+    ,"Proj":"P"
+    ,"Target":"28-NI-62"
+    ,"ReactionType":"CS"     ,"MF":3    ,"ReacTypeExp":"Cross section"
+    ,"DataType":",SIG"
+    ,"Quantity":"Cross section"
+    ,"IndVarFamCode":"0 2"
+  }
+  ,"dataCols": [
+	 { "Code":"EN"  ,"Units":"KEV", "Exp":"Incident energy"}
+	,{ "Code":"Data","Units":"B","Data":"SIG"}
+  ]
+  ,"dataPoints": [
+	 {"EN":80000   ,"Z":28 ,"A":62       , "Nucl":"Ni-62"      ,"Data":0.03       ,"dData":0.01       }
+	,{"EN":100000  ,"Z":28 ,"A":62       , "Nucl":"Ni-62"      ,"Data":0.03       ,"dData":0.01       }
+	,{"EN":136000  ,"Z":28 ,"A":62       , "Nucl":"Ni-62"      ,"Data":0.018      ,"dData":0.01       }
+	,{"EN":164000  ,"Z":28 ,"A":62       , "Nucl":"Ni-62"      ,"Data":0.011      ,"dData":0.007      }
+  ]
+ }
+,
+ { "type":"data", "id":"O0132066"
+  ,"subent":{"id":"O0132066", "updated":"20160708" }
+  ,"entry":{"id":"O0132", "updated":"20160708" }
+  ,"author1":"M.E.Sadler+"
+  ,"year":1980
+  ,"ref1":{"code":"J,PR/C,21,2303,1980"
+          ,"exp":"Jour: Physical Review, Part C, Nuclear Physics, Vol.21, p.2303 (1980)"
+          }
+  ,"reaction": {
+     "code":"28-NI-60(P,INL)28-NI-60,,SIG"
+    ,"Proj":"P"
+    ,"Target":"28-NI-60"
+    ,"ReactionType":"CS"     ,"MF":3    ,"ReacTypeExp":"Cross section"
+    ,"DataType":",SIG"
+    ,"Quantity":"Cross section"
+    ,"IndVarFamCode":"0 2"
+  }
+  ,"dataCols": [
+	 { "Code":"EN"  ,"Units":"KEV", "Exp":"Incident energy"}
+	,{ "Code":"Data","Units":"B","Data":"SIG"}
+  ]
+  ,"dataPoints": [
+	 {"EN":100000  ,"Z":28 ,"A":60       , "Nucl":"Ni-60"      ,"Data":0.042      ,"dData":0.004      }
+	,{"EN":136000  ,"Z":28 ,"A":60       , "Nucl":"Ni-60"      ,"Data":0.025      ,"dData":0.003      }
+  ]
+ }
+,
+ { "type":"data", "id":"O0132100"
+  ,"subent":{"id":"O0132100", "updated":"20160708" }
+  ,"entry":{"id":"O0132", "updated":"20160708" }
+  ,"author1":"M.E.Sadler+"
+  ,"year":1980
+  ,"ref1":{"code":"J,PR/C,21,2303,1980"
+          ,"exp":"Jour: Physical Review, Part C, Nuclear Physics, Vol.21, p.2303 (1980)"
+          }
+  ,"reaction": {
+     "code":"28-NI-64(P,INL)28-NI-64,,SIG"
+    ,"Proj":"P"
+    ,"Target":"28-NI-64"
+    ,"ReactionType":"CS"     ,"MF":3    ,"ReacTypeExp":"Cross section"
+    ,"DataType":",SIG"
+    ,"Quantity":"Cross section"
+    ,"IndVarFamCode":"0 2"
+  }
+  ,"dataCols": [
+	 { "Code":"EN"  ,"Units":"KEV", "Exp":"Incident energy"}
+	,{ "Code":"Data","Units":"B","Data":"SIG"}
+  ]
+  ,"dataPoints": [
+	 {"EN":100000  ,"Z":28 ,"A":64       , "Nucl":"Ni-64"      ,"Data":0.029      ,"dData":0.004      }
+	,{"EN":136000  ,"Z":28 ,"A":64       , "Nucl":"Ni-64"      ,"Data":0.014      ,"dData":0.002      }
+  ]
+ }
+,
+ { "type":"data", "id":"O0298005"
+  ,"subent":{"id":"O0298005", "updated":"20190306" }
+  ,"entry":{"id":"O0298", "updated":"20200117" }
+  ,"author1":"N.G.Zaitseva+"
+  ,"year":1992
+  ,"ref1":{"code":"J,RCA,56,59,1992"
+          ,"exp":"Jour: Radiochimica Acta, Vol.56, p.59 (1992)"
+          }
+  ,"reaction": {
+     "code":"43-TC-99(P,INL)43-TC-99-M,,SIG"
+    ,"Proj":"P"
+    ,"Target":"43-TC-99"
+    ,"ReactionType":"CS"     ,"MF":3    ,"ReacTypeExp":"Cross section"
+    ,"DataType":",SIG"
+    ,"Quantity":"Cross section"
+    ,"IndVarFamCode":"0 2"
+  }
+  ,"dataCols": [
+	 { "Code":"EN"  ,"Units":"KEV", "Exp":"Incident energy"}
+	,{ "Code":"Data","Units":"B","Data":"SIG"}
+  ]
+  ,"dataPoints": [
+	 {"EN":99600   ,"dEN":500    ,"Z":43 ,"A":99 ,"S":1, "Nucl":"Tc-99-M"    ,"Data":0.089      ,"dData":0.01335    ,"t12sec":21636      ,"Radiations":[ {"Type":"DG", "Energy":[140.5], "Intensity":0.878}]}
+	,{"EN":96900   ,"dEN":450    ,"Z":43 ,"A":99 ,"S":1, "Nucl":"Tc-99-M"    ,"Data":0.09       ,"dData":0.0135     ,"t12sec":21636      ,"Radiations":[ {"Type":"DG", "Energy":[140.5], "Intensity":0.878}]}
+	,{"EN":94400   ,"dEN":450    ,"Z":43 ,"A":99 ,"S":1, "Nucl":"Tc-99-M"    ,"Data":0.086      ,"dData":0.0129     ,"t12sec":21636      ,"Radiations":[ {"Type":"DG", "Energy":[140.5], "Intensity":0.878}]}
+	,{"EN":91900   ,"dEN":500    ,"Z":43 ,"A":99 ,"S":1, "Nucl":"Tc-99-M"    ,"Data":0.083      ,"dData":0.01245    ,"t12sec":21636      ,"Radiations":[ {"Type":"DG", "Energy":[140.5], "Intensity":0.878}]}
+	,{"EN":89200   ,"dEN":450    ,"Z":43 ,"A":99 ,"S":1, "Nucl":"Tc-99-M"    ,"Data":0.082      ,"dData":0.0123     ,"t12sec":21636      ,"Radiations":[ {"Type":"DG", "Energy":[140.5], "Intensity":0.878}]}
+	,{"EN":86700   ,"dEN":550    ,"Z":43 ,"A":99 ,"S":1, "Nucl":"Tc-99-M"    ,"Data":0.072      ,"dData":0.0108     ,"t12sec":21636      ,"Radiations":[ {"Type":"DG", "Energy":[140.5], "Intensity":0.878}]}
+	,{"EN":83900   ,"dEN":500    ,"Z":43 ,"A":99 ,"S":1, "Nucl":"Tc-99-M"    ,"Data":0.066      ,"dData":0.0099     ,"t12sec":21636      ,"Radiations":[ {"Type":"DG", "Energy":[140.5], "Intensity":0.878}]}
+	,{"EN":81000   ,"dEN":500    ,"Z":43 ,"A":99 ,"S":1, "Nucl":"Tc-99-M"    ,"Data":0.054      ,"dData":0.0081     ,"t12sec":21636      ,"Radiations":[ {"Type":"DG", "Energy":[140.5], "Intensity":0.878}]}
+	,{"EN":78100   ,"dEN":600    ,"Z":43 ,"A":99 ,"S":1, "Nucl":"Tc-99-M"    ,"Data":0.041      ,"dData":0.00615    ,"t12sec":21636      ,"Radiations":[ {"Type":"DG", "Energy":[140.5], "Intensity":0.878}]}
+	,{"EN":74900   ,"dEN":600    ,"Z":43 ,"A":99 ,"S":1, "Nucl":"Tc-99-M"    ,"Data":0.037      ,"dData":0.00555    ,"t12sec":21636      ,"Radiations":[ {"Type":"DG", "Energy":[140.5], "Intensity":0.878}]}
+	,{"EN":72400   ,"dEN":600    ,"Z":43 ,"A":99 ,"S":1, "Nucl":"Tc-99-M"    ,"Data":0.037      ,"dData":0.00555    ,"t12sec":21636      ,"Radiations":[ {"Type":"DG", "Energy":[140.5], "Intensity":0.878}]}
+	,{"EN":68900   ,"dEN":600    ,"Z":43 ,"A":99 ,"S":1, "Nucl":"Tc-99-M"    ,"Data":0.034      ,"dData":0.0051     ,"t12sec":21636      ,"Radiations":[ {"Type":"DG", "Energy":[140.5], "Intensity":0.878}]}
+	,{"EN":67700   ,"dEN":550    ,"Z":43 ,"A":99 ,"S":1, "Nucl":"Tc-99-M"    ,"Data":0.033      ,"dData":0.00495    ,"t12sec":21636      ,"Radiations":[ {"Type":"DG", "Energy":[140.5], "Intensity":0.878}]}
+	,{"EN":65700   ,"dEN":599.996,"Z":43 ,"A":99 ,"S":1, "Nucl":"Tc-99-M"    ,"Data":0.034      ,"dData":0.0051     ,"t12sec":21636      ,"Radiations":[ {"Type":"DG", "Energy":[140.5], "Intensity":0.878}]}
+	,{"EN":64400   ,"dEN":700    ,"Z":43 ,"A":99 ,"S":1, "Nucl":"Tc-99-M"    ,"Data":0.044      ,"dData":0.0066     ,"t12sec":21636      ,"Radiations":[ {"Type":"DG", "Energy":[140.5], "Intensity":0.878}]}
+	,{"EN":62900   ,"dEN":600    ,"Z":43 ,"A":99 ,"S":1, "Nucl":"Tc-99-M"    ,"Data":0.063      ,"dData":0.00945    ,"t12sec":21636      ,"Radiations":[ {"Type":"DG", "Energy":[140.5], "Intensity":0.878}]}
+	,{"EN":60800   ,"dEN":700    ,"Z":43 ,"A":99 ,"S":1, "Nucl":"Tc-99-M"    ,"Data":0.04       ,"dData":0.006      ,"t12sec":21636      ,"Radiations":[ {"Type":"DG", "Energy":[140.5], "Intensity":0.878}]}
+	,{"EN":59500   ,"dEN":550    ,"Z":43 ,"A":99 ,"S":1, "Nucl":"Tc-99-M"    ,"Data":0.04       ,"dData":0.006      ,"t12sec":21636      ,"Radiations":[ {"Type":"DG", "Energy":[140.5], "Intensity":0.878}]}
+	,{"EN":58500   ,"dEN":600    ,"Z":43 ,"A":99 ,"S":1, "Nucl":"Tc-99-M"    ,"Data":0.044      ,"dData":0.0066     ,"t12sec":21636      ,"Radiations":[ {"Type":"DG", "Energy":[140.5], "Intensity":0.878}]}
+	,{"EN":57200   ,"dEN":650    ,"Z":43 ,"A":99 ,"S":1, "Nucl":"Tc-99-M"    ,"Data":0.042      ,"dData":0.0063     ,"t12sec":21636      ,"Radiations":[ {"Type":"DG", "Energy":[140.5], "Intensity":0.878}]}
+	,{"EN":55300   ,"dEN":750    ,"Z":43 ,"A":99 ,"S":1, "Nucl":"Tc-99-M"    ,"Data":0.04       ,"dData":0.006      ,"t12sec":21636      ,"Radiations":[ {"Type":"DG", "Energy":[140.5], "Intensity":0.878}]}
+	,{"EN":53500   ,"dEN":750    ,"Z":43 ,"A":99 ,"S":1, "Nucl":"Tc-99-M"    ,"Data":0.039      ,"dData":0.00585    ,"t12sec":21636      ,"Radiations":[ {"Type":"DG", "Energy":[140.5], "Intensity":0.878}]}
+	,{"EN":51800   ,"dEN":750    ,"Z":43 ,"A":99 ,"S":1, "Nucl":"Tc-99-M"    ,"Data":0.04       ,"dData":0.006      ,"t12sec":21636      ,"Radiations":[ {"Type":"DG", "Energy":[140.5], "Intensity":0.878}]}
+	,{"EN":50000   ,"dEN":750    ,"Z":43 ,"A":99 ,"S":1, "Nucl":"Tc-99-M"    ,"Data":0.043      ,"dData":0.00645    ,"t12sec":21636      ,"Radiations":[ {"Type":"DG", "Energy":[140.5], "Intensity":0.878}]}
+	,{"EN":48300   ,"dEN":850    ,"Z":43 ,"A":99 ,"S":1, "Nucl":"Tc-99-M"    ,"Data":0.044      ,"dData":0.0066     ,"t12sec":21636      ,"Radiations":[ {"Type":"DG", "Energy":[140.5], "Intensity":0.878}]}
+	,{"EN":46400   ,"dEN":900    ,"Z":43 ,"A":99 ,"S":1, "Nucl":"Tc-99-M"    ,"Data":0.041      ,"dData":0.00615    ,"t12sec":21636      ,"Radiations":[ {"Type":"DG", "Energy":[140.5], "Intensity":0.878}]}
+	,{"EN":44300   ,"dEN":800    ,"Z":43 ,"A":99 ,"S":1, "Nucl":"Tc-99-M"    ,"Data":0.035      ,"dData":0.00525    ,"t12sec":21636      ,"Radiations":[ {"Type":"DG", "Energy":[140.5], "Intensity":0.878}]}
+	,{"EN":42400   ,"dEN":900    ,"Z":43 ,"A":99 ,"S":1, "Nucl":"Tc-99-M"    ,"Data":0.037      ,"dData":0.00555    ,"t12sec":21636      ,"Radiations":[ {"Type":"DG", "Energy":[140.5], "Intensity":0.878}]}
+	,{"EN":40600   ,"dEN":850    ,"Z":43 ,"A":99 ,"S":1, "Nucl":"Tc-99-M"    ,"Data":0.035      ,"dData":0.00525    ,"t12sec":21636      ,"Radiations":[ {"Type":"DG", "Energy":[140.5], "Intensity":0.878}]}
+	,{"EN":38900   ,"dEN":950    ,"Z":43 ,"A":99 ,"S":1, "Nucl":"Tc-99-M"    ,"Data":0.036      ,"dData":0.0054     ,"t12sec":21636      ,"Radiations":[ {"Type":"DG", "Energy":[140.5], "Intensity":0.878}]}
+	,{"EN":37000   ,"dEN":950    ,"Z":43 ,"A":99 ,"S":1, "Nucl":"Tc-99-M"    ,"Data":0.036      ,"dData":0.0054     ,"t12sec":21636      ,"Radiations":[ {"Type":"DG", "Energy":[140.5], "Intensity":0.878}]}
+	,{"EN":35100   ,"dEN":1050   ,"Z":43 ,"A":99 ,"S":1, "Nucl":"Tc-99-M"    ,"Data":0.034      ,"dData":0.0051     ,"t12sec":21636      ,"Radiations":[ {"Type":"DG", "Energy":[140.5], "Intensity":0.878}]}
+	,{"EN":33000   ,"dEN":1100   ,"Z":43 ,"A":99 ,"S":1, "Nucl":"Tc-99-M"    ,"Data":0.031      ,"dData":0.00465    ,"t12sec":21636      ,"Radiations":[ {"Type":"DG", "Energy":[140.5], "Intensity":0.878}]}
+	,{"EN":30800   ,"dEN":1050   ,"Z":43 ,"A":99 ,"S":1, "Nucl":"Tc-99-M"    ,"Data":0.03       ,"dData":0.0045     ,"t12sec":21636      ,"Radiations":[ {"Type":"DG", "Energy":[140.5], "Intensity":0.878}]}
+	,{"EN":28700   ,"dEN":1200   ,"Z":43 ,"A":99 ,"S":1, "Nucl":"Tc-99-M"    ,"Data":0.028      ,"dData":0.0042     ,"t12sec":21636      ,"Radiations":[ {"Type":"DG", "Energy":[140.5], "Intensity":0.878}]}
+	,{"EN":26300   ,"dEN":1350   ,"Z":43 ,"A":99 ,"S":1, "Nucl":"Tc-99-M"    ,"Data":0.026      ,"dData":0.0039     ,"t12sec":21636      ,"Radiations":[ {"Type":"DG", "Energy":[140.5], "Intensity":0.878}]}
+	,{"EN":23600   ,"dEN":1450   ,"Z":43 ,"A":99 ,"S":1, "Nucl":"Tc-99-M"    ,"Data":0.026      ,"dData":0.0039     ,"t12sec":21636      ,"Radiations":[ {"Type":"DG", "Energy":[140.5], "Intensity":0.878}]}
+	,{"EN":20700   ,"dEN":1450   ,"Z":43 ,"A":99 ,"S":1, "Nucl":"Tc-99-M"    ,"Data":0.024      ,"dData":0.0036     ,"t12sec":21636      ,"Radiations":[ {"Type":"DG", "Energy":[140.5], "Intensity":0.878}]}
+	,{"EN":17800   ,"dEN":1700   ,"Z":43 ,"A":99 ,"S":1, "Nucl":"Tc-99-M"    ,"Data":0.024      ,"dData":0.0036     ,"t12sec":21636      ,"Radiations":[ {"Type":"DG", "Energy":[140.5], "Intensity":0.878}]}
+  ]
+ }
+,
+ { "type":"data", "id":"O0807002"
+  ,"subent":{"id":"O0807002", "updated":"20010323" }
+  ,"entry":{"id":"O0807", "updated":"20181125" }
+  ,"author1":"O.Artun+"
+  ,"year":1975
+  ,"ref1":{"code":"J,PRL,35,773,1975"
+          ,"exp":"Jour: Physical Review Letters, Vol.35, p.773 (1975)"
+          }
+  ,"reaction": {
+     "code":"20-CA-40(P,INL)20-CA-40,,SIG"
+    ,"Proj":"P"
+    ,"Target":"20-CA-40"
+    ,"ReactionType":"CS"     ,"MF":3    ,"ReacTypeExp":"Cross section"
+    ,"DataType":",SIG"
+    ,"Quantity":"Cross section"
+    ,"IndVarFamCode":"0 2"
+  }
+  ,"dataCols": [
+	 { "Code":"EN"  ,"Units":"KEV", "Exp":"Incident energy"}
+	,{ "Code":"Data","Units":"B","Data":"SIG"}
+  ]
+  ,"dataPoints": [
+	 {"EN":110000  ,"Z":20 ,"A":40       , "Nucl":"Ca-40"      ,"Data":0.02       ,"dData":0.004      }
+	,{"EN":210000  ,"Z":20 ,"A":40       , "Nucl":"Ca-40"      ,"Data":0.0134     ,"dData":0.00268    }
+	,{"EN":600000  ,"Z":20 ,"A":40       , "Nucl":"Ca-40"      ,"Data":0.0052     ,"dData":0.00104    }
+  ]
+ }
+,
+ { "type":"data", "id":"O0807013"
+  ,"subent":{"id":"O0807013", "updated":"20010323" }
+  ,"entry":{"id":"O0807", "updated":"20181125" }
+  ,"author1":"O.Artun+"
+  ,"year":1975
+  ,"ref1":{"code":"J,PRL,35,773,1975"
+          ,"exp":"Jour: Physical Review Letters, Vol.35, p.773 (1975)"
+          }
+  ,"reaction": {
+     "code":"14-SI-28(P,INL)14-SI-28,,SIG"
+    ,"Proj":"P"
+    ,"Target":"14-SI-28"
+    ,"ReactionType":"CS"     ,"MF":3    ,"ReacTypeExp":"Cross section"
+    ,"DataType":",SIG"
+    ,"Quantity":"Cross section"
+    ,"IndVarFamCode":"0 2"
+  }
+  ,"dataCols": [
+	 { "Code":"EN"  ,"Units":"KEV", "Exp":"Incident energy"}
+	,{ "Code":"Data","Units":"B","Data":"SIG"}
+  ]
+  ,"dataPoints": [
+	 {"EN":218000  ,"Z":14 ,"A":28       , "Nucl":"Si-28"      ,"Data":0.0245     ,"dData":0.0049     }
+  ]
+ }
+,
+ { "type":"data", "id":"O14260121" ,"pointer":"1"
+  ,"subent":{"id":"O1426012", "updated":"20090311" }
+  ,"entry":{"id":"O1426", "updated":"20140205" }
+  ,"author1":"C.-M.Herbach+"
+  ,"year":2006
+  ,"ref1":{"code":"J,NIM/A,562,729,2006"
+          ,"exp":"Jour: Nucl. Instrum. Methods in Physics Res., Sect.A, Vol.562, p.729 (2006)"
+          }
+  ,"reaction": {
+     "code":"13-AL-27(P,INL)13-AL-27,,SIG,,,DERIV"
+    ,"Proj":"P"
+    ,"Target":"13-AL-27"
+    ,"ReactionType":"CS"     ,"MF":3    ,"ReacTypeExp":"Cross section"
+    ,"DataType":",SIG"
+    ,"Quantity":"Cross section"
+    ,"IndVarFamCode":"0 2"
+  }
+  ,"dataCols": [
+	 { "Code":"EN"  ,"Units":"KEV", "Exp":"Incident energy"}
+	,{ "Code":"Data","Units":"B","Data":"SIG"}
+  ]
+  ,"dataPoints": [
+	 {"EN":1200000 ,"Z":13 ,"A":27       , "Nucl":"Al-27"      ,"Data":0.456      ,"dData":0.02       }
+  ]
+ }
+,
+ { "type":"data", "id":"O14260131" ,"pointer":"1"
+  ,"subent":{"id":"O1426013", "updated":"20090311" }
+  ,"entry":{"id":"O1426", "updated":"20140205" }
+  ,"author1":"C.-M.Herbach+"
+  ,"year":2006
+  ,"ref1":{"code":"J,NIM/A,562,729,2006"
+          ,"exp":"Jour: Nucl. Instrum. Methods in Physics Res., Sect.A, Vol.562, p.729 (2006)"
+          }
+  ,"reaction": {
+     "code":"26-FE-0(P,INL)26-FE-0,,SIG,,,DERIV"
+    ,"Proj":"P"
+    ,"Target":"26-FE-0"
+    ,"ReactionType":"CS"     ,"MF":3    ,"ReacTypeExp":"Cross section"
+    ,"DataType":",SIG"
+    ,"Quantity":"Cross section"
+    ,"IndVarFamCode":"0 2"
+  }
+  ,"dataCols": [
+	 { "Code":"EN"  ,"Units":"KEV", "Exp":"Incident energy"}
+	,{ "Code":"Data","Units":"B","Data":"SIG"}
+  ]
+  ,"dataPoints": [
+	 {"EN":1200000 ,"Z":26       , "Nucl":"Fe-0"       ,"Data":0.746      ,"dData":0.03       }
+  ]
+ }
+,
+ { "type":"data", "id":"O14260141" ,"pointer":"1"
+  ,"subent":{"id":"O1426014", "updated":"20090311" }
+  ,"entry":{"id":"O1426", "updated":"20140205" }
+  ,"author1":"C.-M.Herbach+"
+  ,"year":2006
+  ,"ref1":{"code":"J,NIM/A,562,729,2006"
+          ,"exp":"Jour: Nucl. Instrum. Methods in Physics Res., Sect.A, Vol.562, p.729 (2006)"
+          }
+  ,"reaction": {
+     "code":"28-NI-0(P,INL)28-NI-0,,SIG,,,DERIV"
+    ,"Proj":"P"
+    ,"Target":"28-NI-0"
+    ,"ReactionType":"CS"     ,"MF":3    ,"ReacTypeExp":"Cross section"
+    ,"DataType":",SIG"
+    ,"Quantity":"Cross section"
+    ,"IndVarFamCode":"0 2"
+  }
+  ,"dataCols": [
+	 { "Code":"EN"  ,"Units":"KEV", "Exp":"Incident energy"}
+	,{ "Code":"Data","Units":"B","Data":"SIG"}
+  ]
+  ,"dataPoints": [
+	 {"EN":1200000 ,"Z":28       , "Nucl":"Ni-0"       ,"Data":0.764      ,"dData":0.03       }
+  ]
+ }
+,
+ { "type":"data", "id":"O14260151" ,"pointer":"1"
+  ,"subent":{"id":"O1426015", "updated":"20090311" }
+  ,"entry":{"id":"O1426", "updated":"20140205" }
+  ,"author1":"C.-M.Herbach+"
+  ,"year":2006
+  ,"ref1":{"code":"J,NIM/A,562,729,2006"
+          ,"exp":"Jour: Nucl. Instrum. Methods in Physics Res., Sect.A, Vol.562, p.729 (2006)"
+          }
+  ,"reaction": {
+     "code":"29-CU-0(P,INL)29-CU-0,,SIG,,,DERIV"
+    ,"Proj":"P"
+    ,"Target":"29-CU-0"
+    ,"ReactionType":"CS"     ,"MF":3    ,"ReacTypeExp":"Cross section"
+    ,"DataType":",SIG"
+    ,"Quantity":"Cross section"
+    ,"IndVarFamCode":"0 2"
+  }
+  ,"dataCols": [
+	 { "Code":"EN"  ,"Units":"KEV", "Exp":"Incident energy"}
+	,{ "Code":"Data","Units":"B","Data":"SIG"}
+  ]
+  ,"dataPoints": [
+	 {"EN":1200000 ,"Z":29       , "Nucl":"Cu-0"       ,"Data":0.813      ,"dData":0.03       }
+  ]
+ }
+,
+ { "type":"data", "id":"O14260161" ,"pointer":"1"
+  ,"subent":{"id":"O1426016", "updated":"20090311" }
+  ,"entry":{"id":"O1426", "updated":"20140205" }
+  ,"author1":"C.-M.Herbach+"
+  ,"year":2006
+  ,"ref1":{"code":"J,NIM/A,562,729,2006"
+          ,"exp":"Jour: Nucl. Instrum. Methods in Physics Res., Sect.A, Vol.562, p.729 (2006)"
+          }
+  ,"reaction": {
+     "code":"40-ZR-0(P,INL)40-ZR-0,,SIG,,,DERIV"
+    ,"Proj":"P"
+    ,"Target":"40-ZR-0"
+    ,"ReactionType":"CS"     ,"MF":3    ,"ReacTypeExp":"Cross section"
+    ,"DataType":",SIG"
+    ,"Quantity":"Cross section"
+    ,"IndVarFamCode":"0 2"
+  }
+  ,"dataCols": [
+	 { "Code":"EN"  ,"Units":"KEV", "Exp":"Incident energy"}
+	,{ "Code":"Data","Units":"B","Data":"SIG"}
+  ]
+  ,"dataPoints": [
+	 {"EN":1200000 ,"Z":40       , "Nucl":"Zr-0"       ,"Data":1.066      ,"dData":0.04       }
+  ]
+ }
+,
+ { "type":"data", "id":"O14260171" ,"pointer":"1"
+  ,"subent":{"id":"O1426017", "updated":"20090311" }
+  ,"entry":{"id":"O1426", "updated":"20140205" }
+  ,"author1":"C.-M.Herbach+"
+  ,"year":2006
+  ,"ref1":{"code":"J,NIM/A,562,729,2006"
+          ,"exp":"Jour: Nucl. Instrum. Methods in Physics Res., Sect.A, Vol.562, p.729 (2006)"
+          }
+  ,"reaction": {
+     "code":"41-NB-93(P,INL)41-NB-93,,SIG"
+    ,"Proj":"P"
+    ,"Target":"41-NB-93"
+    ,"ReactionType":"CS"     ,"MF":3    ,"ReacTypeExp":"Cross section"
+    ,"DataType":",SIG"
+    ,"Quantity":"Cross section"
+    ,"IndVarFamCode":"0 2"
+  }
+  ,"dataCols": [
+	 { "Code":"EN"  ,"Units":"KEV", "Exp":"Incident energy"}
+	,{ "Code":"Data","Units":"B","Data":"SIG"}
+  ]
+  ,"dataPoints": [
+	 {"EN":1200000 ,"Z":41 ,"A":93       , "Nucl":"Nb-93"      ,"Data":1.063      ,"dData":0.04       }
+  ]
+ }
+,
+ { "type":"data", "id":"O14260181" ,"pointer":"1"
+  ,"subent":{"id":"O1426018", "updated":"20090311" }
+  ,"entry":{"id":"O1426", "updated":"20140205" }
+  ,"author1":"C.-M.Herbach+"
+  ,"year":2006
+  ,"ref1":{"code":"J,NIM/A,562,729,2006"
+          ,"exp":"Jour: Nucl. Instrum. Methods in Physics Res., Sect.A, Vol.562, p.729 (2006)"
+          }
+  ,"reaction": {
+     "code":"47-AG-0(P,INL)47-AG-0,,SIG,,,DERIV"
+    ,"Proj":"P"
+    ,"Target":"47-AG-0"
+    ,"ReactionType":"CS"     ,"MF":3    ,"ReacTypeExp":"Cross section"
+    ,"DataType":",SIG"
+    ,"Quantity":"Cross section"
+    ,"IndVarFamCode":"0 2"
+  }
+  ,"dataCols": [
+	 { "Code":"EN"  ,"Units":"KEV", "Exp":"Incident energy"}
+	,{ "Code":"Data","Units":"B","Data":"SIG"}
+  ]
+  ,"dataPoints": [
+	 {"EN":1200000 ,"Z":47       , "Nucl":"Ag-0"       ,"Data":1.155      ,"dData":0.04       }
+  ]
+ }
+,
+ { "type":"data", "id":"O14260191" ,"pointer":"1"
+  ,"subent":{"id":"O1426019", "updated":"20090311" }
+  ,"entry":{"id":"O1426", "updated":"20140205" }
+  ,"author1":"C.-M.Herbach+"
+  ,"year":2006
+  ,"ref1":{"code":"J,NIM/A,562,729,2006"
+          ,"exp":"Jour: Nucl. Instrum. Methods in Physics Res., Sect.A, Vol.562, p.729 (2006)"
+          }
+  ,"reaction": {
+     "code":"67-HO-165(P,INL)67-HO-165,,SIG,,,DERIV"
+    ,"Proj":"P"
+    ,"Target":"67-HO-165"
+    ,"ReactionType":"CS"     ,"MF":3    ,"ReacTypeExp":"Cross section"
+    ,"DataType":",SIG"
+    ,"Quantity":"Cross section"
+    ,"IndVarFamCode":"0 2"
+  }
+  ,"dataCols": [
+	 { "Code":"EN"  ,"Units":"KEV", "Exp":"Incident energy"}
+	,{ "Code":"Data","Units":"B","Data":"SIG"}
+  ]
+  ,"dataPoints": [
+	 {"EN":1200000 ,"Z":67 ,"A":165      , "Nucl":"Ho-165"     ,"Data":1.512      ,"dData":0.05       }
+  ]
+ }
+,
+ { "type":"data", "id":"O14260201" ,"pointer":"1"
+  ,"subent":{"id":"O1426020", "updated":"20090311" }
+  ,"entry":{"id":"O1426", "updated":"20140205" }
+  ,"author1":"C.-M.Herbach+"
+  ,"year":2006
+  ,"ref1":{"code":"J,NIM/A,562,729,2006"
+          ,"exp":"Jour: Nucl. Instrum. Methods in Physics Res., Sect.A, Vol.562, p.729 (2006)"
+          }
+  ,"reaction": {
+     "code":"74-W-0(P,INL)74-W-0,,SIG,,,DERIV"
+    ,"Proj":"P"
+    ,"Target":"74-W-0"
+    ,"ReactionType":"CS"     ,"MF":3    ,"ReacTypeExp":"Cross section"
+    ,"DataType":",SIG"
+    ,"Quantity":"Cross section"
+    ,"IndVarFamCode":"0 2"
+  }
+  ,"dataCols": [
+	 { "Code":"EN"  ,"Units":"KEV", "Exp":"Incident energy"}
+	,{ "Code":"Data","Units":"B","Data":"SIG"}
+  ]
+  ,"dataPoints": [
+	 {"EN":1200000 ,"Z":74       , "Nucl":"W-0"        ,"Data":1.666      ,"dData":0.055      }
+  ]
+ }
+,
+ { "type":"data", "id":"O14260211" ,"pointer":"1"
+  ,"subent":{"id":"O1426021", "updated":"20090311" }
+  ,"entry":{"id":"O1426", "updated":"20140205" }
+  ,"author1":"C.-M.Herbach+"
+  ,"year":2006
+  ,"ref1":{"code":"J,NIM/A,562,729,2006"
+          ,"exp":"Jour: Nucl. Instrum. Methods in Physics Res., Sect.A, Vol.562, p.729 (2006)"
+          }
+  ,"reaction": {
+     "code":"82-PB-0(P,INL)82-PB-0,,SIG,,,DERIV"
+    ,"Proj":"P"
+    ,"Target":"82-PB-0"
+    ,"ReactionType":"CS"     ,"MF":3    ,"ReacTypeExp":"Cross section"
+    ,"DataType":",SIG"
+    ,"Quantity":"Cross section"
+    ,"IndVarFamCode":"0 2"
+  }
+  ,"dataCols": [
+	 { "Code":"EN"  ,"Units":"KEV", "Exp":"Incident energy"}
+	,{ "Code":"Data","Units":"B","Data":"SIG"}
+  ]
+  ,"dataPoints": [
+	 {"EN":1200000 ,"Z":82       , "Nucl":"Pb-0"       ,"Data":1.775      ,"dData":0.06       }
+  ]
+ }
+,
+ { "type":"data", "id":"O14260221" ,"pointer":"1"
+  ,"subent":{"id":"O1426022", "updated":"20090311" }
+  ,"entry":{"id":"O1426", "updated":"20140205" }
+  ,"author1":"C.-M.Herbach+"
+  ,"year":2006
+  ,"ref1":{"code":"J,NIM/A,562,729,2006"
+          ,"exp":"Jour: Nucl. Instrum. Methods in Physics Res., Sect.A, Vol.562, p.729 (2006)"
+          }
+  ,"reaction": {
+     "code":"92-U-0(P,INL)92-U-0,,SIG,,,DERIV"
+    ,"Proj":"P"
+    ,"Target":"92-U-0"
+    ,"ReactionType":"CS"     ,"MF":3    ,"ReacTypeExp":"Cross section"
+    ,"DataType":",SIG"
+    ,"Quantity":"Cross section"
+    ,"IndVarFamCode":"0 2"
+  }
+  ,"dataCols": [
+	 { "Code":"EN"  ,"Units":"KEV", "Exp":"Incident energy"}
+	,{ "Code":"Data","Units":"B","Data":"SIG"}
+  ]
+  ,"dataPoints": [
+	 {"EN":1200000 ,"Z":92       , "Nucl":"U-0"        ,"Data":2.021      ,"dData":0.065      }
+  ]
+ }
+,
+ { "type":"data", "id":"O20970021" ,"pointer":"1"
+  ,"subent":{"id":"O2097002", "updated":"20121028" }
+  ,"entry":{"id":"O2097", "updated":"20121101" }
+  ,"author1":"N.E.Booth+"
+  ,"year":1957
+  ,"ref1":{"code":"J,PPS/A,70,209,1957"
+          ,"exp":"Jour: Proc.Physical Society (London), Section A, Vol.70, p.209 (1957)"
+          }
+  ,"reaction": {
+     "code":"6-C-0(P,INL)6-C-0,,SIG"
+    ,"Proj":"P"
+    ,"Target":"6-C-0"
+    ,"ReactionType":"CS"     ,"MF":3    ,"ReacTypeExp":"Cross section"
+    ,"DataType":",SIG"
+    ,"Quantity":"Cross section"
+    ,"IndVarFamCode":"0 2"
+  }
+  ,"dataCols": [
+	 { "Code":"EN"  ,"Units":"KEV", "Exp":"Incident energy"}
+	,{ "Code":"Data","Units":"B","Data":"SIG"}
+  ]
+  ,"dataPoints": [
+	 {"EN":900000  ,"Z":6        , "Nucl":"C-0"        ,"Data":0.23       ,"dData":0.02       }
+  ]
+ }
+,
+ { "type":"data", "id":"O20970031" ,"pointer":"1"
+  ,"subent":{"id":"O2097003", "updated":"20121028" }
+  ,"entry":{"id":"O2097", "updated":"20121101" }
+  ,"author1":"N.E.Booth+"
+  ,"year":1957
+  ,"ref1":{"code":"J,PPS/A,70,209,1957"
+          ,"exp":"Jour: Proc.Physical Society (London), Section A, Vol.70, p.209 (1957)"
+          }
+  ,"reaction": {
+     "code":"13-AL-27(P,INL)13-AL-27,,SIG"
+    ,"Proj":"P"
+    ,"Target":"13-AL-27"
+    ,"ReactionType":"CS"     ,"MF":3    ,"ReacTypeExp":"Cross section"
+    ,"DataType":",SIG"
+    ,"Quantity":"Cross section"
+    ,"IndVarFamCode":"0 2"
+  }
+  ,"dataCols": [
+	 { "Code":"EN"  ,"Units":"KEV", "Exp":"Incident energy"}
+	,{ "Code":"Data","Units":"B","Data":"SIG"}
+  ]
+  ,"dataPoints": [
+	 {"EN":900000  ,"Z":13 ,"A":27       , "Nucl":"Al-27"      ,"Data":0.37       ,"dData":0.029      }
+  ]
+ }
+,
+ { "type":"data", "id":"O20970041" ,"pointer":"1"
+  ,"subent":{"id":"O2097004", "updated":"20121028" }
+  ,"entry":{"id":"O2097", "updated":"20121101" }
+  ,"author1":"N.E.Booth+"
+  ,"year":1957
+  ,"ref1":{"code":"J,PPS/A,70,209,1957"
+          ,"exp":"Jour: Proc.Physical Society (London), Section A, Vol.70, p.209 (1957)"
+          }
+  ,"reaction": {
+     "code":"29-CU-0(P,INL)29-CU-0,,SIG"
+    ,"Proj":"P"
+    ,"Target":"29-CU-0"
+    ,"ReactionType":"CS"     ,"MF":3    ,"ReacTypeExp":"Cross section"
+    ,"DataType":",SIG"
+    ,"Quantity":"Cross section"
+    ,"IndVarFamCode":"0 2"
+  }
+  ,"dataCols": [
+	 { "Code":"EN"  ,"Units":"KEV", "Exp":"Incident energy"}
+	,{ "Code":"Data","Units":"B","Data":"SIG"}
+  ]
+  ,"dataPoints": [
+	 {"EN":900000  ,"Z":29       , "Nucl":"Cu-0"       ,"Data":0.74       ,"dData":0.052      }
+  ]
+ }
+,
+ { "type":"data", "id":"O2097005"
+  ,"subent":{"id":"O2097005", "updated":"20121028" }
+  ,"entry":{"id":"O2097", "updated":"20121101" }
+  ,"author1":"N.E.Booth+"
+  ,"year":1957
+  ,"ref1":{"code":"J,PPS/A,70,209,1957"
+          ,"exp":"Jour: Proc.Physical Society (London), Section A, Vol.70, p.209 (1957)"
+          }
+  ,"reaction": {
+     "code":"51-SB-0(P,INL)51-SB-0,,SIG"
+    ,"Proj":"P"
+    ,"Target":"51-SB-0"
+    ,"ReactionType":"CS"     ,"MF":3    ,"ReacTypeExp":"Cross section"
+    ,"DataType":",SIG"
+    ,"Quantity":"Cross section"
+    ,"IndVarFamCode":"0 2"
+  }
+  ,"dataCols": [
+	 { "Code":"EN"  ,"Units":"KEV", "Exp":"Incident energy"}
+	,{ "Code":"Data","Units":"B","Data":"SIG"}
+  ]
+  ,"dataPoints": [
+	 {"EN":900000  ,"Z":51       , "Nucl":"Sb-0"       ,"Data":1.153      ,"dData":0.022      }
+  ]
+ }
+,
+ { "type":"data", "id":"O2097006"
+  ,"subent":{"id":"O2097006", "updated":"20121028" }
+  ,"entry":{"id":"O2097", "updated":"20121101" }
+  ,"author1":"N.E.Booth+"
+  ,"year":1957
+  ,"ref1":{"code":"J,PPS/A,70,209,1957"
+          ,"exp":"Jour: Proc.Physical Society (London), Section A, Vol.70, p.209 (1957)"
+          }
+  ,"reaction": {
+     "code":"82-PB-0(P,INL)82-PB-0,,SIG"
+    ,"Proj":"P"
+    ,"Target":"82-PB-0"
+    ,"ReactionType":"CS"     ,"MF":3    ,"ReacTypeExp":"Cross section"
+    ,"DataType":",SIG"
+    ,"Quantity":"Cross section"
+    ,"IndVarFamCode":"0 2"
+  }
+  ,"dataCols": [
+	 { "Code":"EN"  ,"Units":"KEV", "Exp":"Incident energy"}
+	,{ "Code":"Data","Units":"B","Data":"SIG"}
+  ]
+  ,"dataPoints": [
+	 {"EN":900000  ,"Z":82       , "Nucl":"Pb-0"       ,"Data":1.66       ,"dData":0.05       }
+  ]
+ }
+,
+ { "type":"data", "id":"T0156002"
+  ,"subent":{"id":"T0156002", "updated":"20120320" }
+  ,"entry":{"id":"T0156", "updated":"20120320" }
+  ,"author1":"J.A.Mcgill+"
+  ,"year":1984
+  ,"ref1":{"code":"J,PR/C,29,204,198401"
+          ,"exp":"Jour: Physical Review, Part C, Nuclear Physics, Vol.29, p.204 (1984)"
+          }
+  ,"reaction": {
+     "code":"1-H-1(P,INL)1-H-1,,SIG"
+    ,"Proj":"P"
+    ,"Target":"1-H-1"
+    ,"ReactionType":"CS"     ,"MF":3    ,"ReacTypeExp":"Cross section"
+    ,"DataType":",SIG"
+    ,"Quantity":"Cross section"
+    ,"IndVarFamCode":"0 2"
+  }
+  ,"dataCols": [
+	 { "Code":"EN"  ,"Units":"KEV", "Exp":"Incident energy"}
+	,{ "Code":"Data","Units":"B","Data":"SIG"}
+  ]
+  ,"dataPoints": [
+	 {"EN":800000  ,"Z":1  ,"A":1        , "Nucl":"H-1"        ,"Data":0.0448     ,"dData":0.00224    }
+  ]
+ }
+]
+}
