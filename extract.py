@@ -1,6 +1,7 @@
 import json
 from array import array
 import numpy as np
+from mendeleev import element
 from ROOT import TGraphErrors, TFile
 import re
 
@@ -42,4 +43,14 @@ for lab, xs in xsections.items():
   graph.SetMarkerStyle(20)
   matches = list(filter(None, re.findall(regex, lab)))
   print(matches)
-  graph.Write(f'{matches[0]}-{matches[1]}')
+  if int(matches[1]) == 0:
+    abund = 0
+    el = element(int(matches[0]))
+    for iso in el.isotopes:
+      if iso.abundance is not None and iso.abundance > abund:
+        abund = iso.abundance
+        massN = iso.mass_number
+    print(f"missing mass number, using the one from mendelev for element {el.name}: {massN}")
+    graph.Write(f'{matches[0]}-{massN}')
+  else:
+    graph.Write(f'{matches[0]}-{matches[1]}')

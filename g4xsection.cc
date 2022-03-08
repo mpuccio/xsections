@@ -55,4 +55,23 @@ void g4xsection() {
       antighmom.Write(zS->String() + "-" + aS->String() + "_mom");
     }
   }
+
+  std::vector<TString> antipList{"13-27", "29-63", "6-12", "4-9", "26-56", "48-112", "82-207"};
+  for (auto name : antipList) {
+    auto zS = (TObjString*)((name.Tokenize("-"))->At(0));
+    auto aS = (TObjString*)((name.Tokenize("-"))->At(1));
+    int z = zS->String().Atoi();
+    int a = aS->String().Atoi();
+    std::vector<double> energy, mom, antixs;
+    for (int iE{0}; iE <= 1000; ++iE) {
+      energy.push_back(100 + iE * 5);
+      mom.push_back(std::sqrt(energy.back() * (energy.back() + 2. * 938.272)));
+      antixs.push_back(antimatterXS.GetInelasticIsotopeCrossSection(antiproton, energy.back() * megaelectronvolt, z, a) /barn);
+    }
+    antidir->cd();
+    TGraph antigh(energy.size(), energy.data(), antixs.data());
+    antigh.Write(zS->String() + "-" + aS->String());
+    TGraph antighmom(energy.size(), mom.data(), antixs.data());
+    antighmom.Write(zS->String() + "-" + aS->String() + "_mom");
+  }
 }
